@@ -1,0 +1,30 @@
+<% include header %>
+
+<h3 style="text-align:center">Questions and Answers</h3>
+
+<% if(entries.questionsAndAnswers.length){ %>
+	<% entries.questionsAndAnswers.forEach(function(entry){ %>
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h4><%= entry.question %></h4>
+		</div>
+
+		<% var i = 0 %>
+
+		<% entry.answers.forEach(function(answer){ %>
+			<div class="panel-body">			
+				<% if(i == entry.correctIndex) { %>
+					<h6 style="color: #00FF00; font-weight:bold"><%= answer %></h6>
+				<% } else { %>
+					<h6 style="color: #FF0000"><%= answer %></h6>
+				<% } %>
+			</div>	
+			<% i = i + 1 %>
+		<% }) %>
+
+	</div>
+	<% }) %>
+	<% } else { %>
+	No Questions!
+	<% } %>
+<% include footer %>

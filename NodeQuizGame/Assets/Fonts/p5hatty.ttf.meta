@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: f85cfe3314ea4974ea25e7dfba5ed040
+timeCreated: 1520900288
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: p5hatty
+  fontNames:
+  - p5hatty
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

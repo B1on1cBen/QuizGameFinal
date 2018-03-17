@@ -1,0 +1,26 @@
+<% include header %>
+
+<h3 style="text-align:center">High Scores</h3>
+
+<div col-sm-6 col-sm-offset-3>
+	<% if(entries.highScores.length){ %>
+		<% var i = 1 %>
+		<% entries.highScores.forEach(function(entry){ %>
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<% if(entry.name != "") { %>
+							<h5><%= i + ": " + entry.name %></h5>
+							<h5><%= "Score: " + entry.score + "%" %></h5>
+						<% } else { %>
+							<h5><%= i + ": ---" %></h5>
+						<% } %>
+					</div>
+				</div>		
+			<% i = i + 1 %>
+		<% }) %>
+	<% } else { %>
+		No Scores!
+	<% } %>
+</div>
+
+<% include footer %>

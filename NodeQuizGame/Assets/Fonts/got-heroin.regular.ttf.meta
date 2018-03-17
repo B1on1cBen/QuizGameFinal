@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 3b4c10e3fdb45c64087e42999a204a9e
+timeCreated: 1520996127
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Got heroin?
+  fontNames:
+  - Got heroin?
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
